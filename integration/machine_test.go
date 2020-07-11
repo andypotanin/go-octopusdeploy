@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/OctopusDeploy/go-octopusdeploy/octopusdeploy"
+	"github.com/andypotanin/go-octopusdeploy/octopusdeploy"
 	"github.com/stretchr/testify/assert"
 )
 

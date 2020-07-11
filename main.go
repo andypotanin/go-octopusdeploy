@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/OctopusDeploy/go-octopusdeploy/octopusdeploy"
+	"github.com/andypotanin/go-octopusdeploy/octopusdeploy"
 )
 
 var octopusURL = os.Getenv("OCTOPUS_URL")
