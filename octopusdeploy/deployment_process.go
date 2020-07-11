@@ -50,6 +50,7 @@ type DeploymentAction struct {
 	IsDisabled                    bool               `json:"IsDisabled"`
 	IsRequired                    bool               `json:"IsRequired"`
 	WorkerPoolId                  string             `json:"WorkerPoolId,omitempty"`
+	ContainerImage                string             `json:"ContainerImage"`
 	CanBeUsedForProjectVersioning bool               `json:"CanBeUsedForProjectVersioning"`
 	Environments                  []string           `json:"Environments,omitempty"`
 	ExcludedEnvironments          []string           `json:"ExcludedEnvironments,omitempty"`
